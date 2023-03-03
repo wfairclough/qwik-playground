@@ -1,0 +1,84 @@
+/**
+ * WHAT IS THIS FILE?
+ *
+ * Globally applied styles. No matter which components are in the page or matching route,
+ * the styles in here will be applied to the Document, without any sort of CSS scoping.
+ *
+ */
+
+:root {
+  --qwik-dark-blue: #006ce9;
+  --qwik-light-blue: #18b6f6;
+  --qwik-light-purple: #ac7ff4;
+  --qwik-dark-purple: #713fc2;
+
+  --sst-color-primary: hsl(180, 100%, 25%);
+  --sst-color-primary-light: #008f8f;
+  --sst-color-primary-dark: #005050;
+  --sst-color-secondary: #43af63;
+  --sst-color-info: #5bb2d7;
+  --sst-color-danger: #e05f5f;
+  --sst-color-accent: #e66317;
+  --sst-color-accent-light: #e27b40;
+  --sst-color-light: #fbe9de;
+  --sst-color-dark: #222222;
+  --sst-color-default: #e6e6e6;
+  --sst-color-white: #ffffff;
+  --sst-color-black: #000000;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+main {
+  display: grid;
+  margin: 0;
+  height: 100%;
+}
+
+h1,
+h2 {
+  margin: 0 0 5px 0;
+}
+
+section {
+  display: grid;
+  height: 100%;
+}
+
+a,
+a:visited {
+  color: var(--qwik-dark-blue);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+code {
+  font-family: Menlo, Monaco, Courier New, monospace;
+  font-size: 0.9em;
+  background-color: rgb(224, 224, 224);
+  padding: 2px 4px;
+  border-radius: 3px;
+  border-bottom: 2px solid #bfbfbf;
+}
+
+footer {
+  padding: 15px;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
