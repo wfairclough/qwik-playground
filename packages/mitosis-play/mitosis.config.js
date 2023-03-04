@@ -1,4 +1,4 @@
 module.exports = {
-  files: "src/**",
+  files: "src/**/*",
   targets: ["angular", "qwik", "react", "solid", "svelte", "vue3"],
 };
