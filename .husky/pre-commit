@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# If we have pnpm installed use it, otherwise use npx
+if command -v pnpm >/dev/null 2>&1; then
+  XCMD="pnpm"
+else
+  XCMD="npx"
+fi
+
+$XCMD pretty-quick --staged

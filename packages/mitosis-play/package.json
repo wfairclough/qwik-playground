@@ -1,0 +1,16 @@
+{
+  "name": "mitosis-play",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@builder.io/mitosis": "^0.0.92",
+    "@builder.io/mitosis-cli": "^0.0.51"
+  }
+}
