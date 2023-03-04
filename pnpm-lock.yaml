@@ -97,6 +97,7 @@ importers:
     specifiers:
       '@builder.io/qwik': 0.20.1
       '@builder.io/qwik-city': 0.5.2
+      '@ionic/core': ^6.6.0
       '@types/eslint': 8.21.1
       '@types/node': ^18.14.0
       '@types/node-fetch': latest
@@ -110,6 +111,8 @@ importers:
       undici: 5.20.0
       vite: 4.1.4
       vite-tsconfig-paths: 3.5.0
+    dependencies:
+      '@ionic/core': 6.6.0
     devDependencies:
       '@builder.io/qwik': 0.20.1_undici@5.20.0
       '@builder.io/qwik-city': 0.5.2_@builder.io+qwik@0.20.1
@@ -1218,6 +1221,14 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
+  /@ionic/core/6.6.0:
+    resolution: {integrity: sha512-1X0b2/ziKhCwSO665tSpG32FOuMyjhyGDLFTJUKoDfQB0j/gIBv1d2okUzAk6GKHdnAPUZQHZFhUHcSIclW9cg==}
+    dependencies:
+      '@stencil/core': 2.22.2
+      ionicons: 6.1.3
+      tslib: 2.5.0
+    dev: false
+
   /@mdx-js/mdx/2.3.0:
     resolution: {integrity: sha512-jLuwRlz8DQfQNiUCJR50Y09CGPq3fLtmtUQfVrj79E0JWu3dvsVcxVIcfhR5h0iXu+/z++zDrYeiJqifRynJkA==}
     dependencies:
@@ -1290,6 +1301,12 @@ packages:
   /@oozcitak/util/8.3.8:
     resolution: {integrity: sha512-T8TbSnGsxo6TDBJx/Sgv/BlVJL3tshxZP7Aq5R1mSnM5OcHY2dQaxLMu2+E8u3gN0MLOzdjurqN4ZRVuzQycOQ==}
     engines: {node: '>=8.0'}
+    dev: false
+
+  /@stencil/core/2.22.2:
+    resolution: {integrity: sha512-r+vbxsGNcBaV1VDOYW25lv4QfXTlNoIb5GpUX7rZ+cr59yqYCZC5tlV+IzX6YgHKW62ulCc9M3RYtTfHtNbNNw==}
+    engines: {node: '>=12.10.0', npm: '>=6.0.0'}
+    hasBin: true
     dev: false
 
   /@types/acorn/4.0.6:
@@ -2410,6 +2427,12 @@ packages:
   /inline-style-parser/0.1.1:
     resolution: {integrity: sha512-7NXolsK4CAS5+xvdj5OMMbI962hU/wvwoxk+LWR9Ek9bVtyuuYScDN6eS0rUm6TxApFpw7CX1o4uJzcd4AyD3Q==}
     dev: true
+
+  /ionicons/6.1.3:
+    resolution: {integrity: sha512-ptzz38dd/Yq+PgjhXegh7yhb/SLIk1bvL9vQDtLv1aoSc7alO6mX2DIMgcKYzt9vrNWkRu1f9Jr78zIFFyOXqw==}
+    dependencies:
+      '@stencil/core': 2.22.2
+    dev: false
 
   /ip/2.0.0:
     resolution: {integrity: sha512-WKa+XuLG1A1R0UWhl2+1XQSi+fZWMsYKffMZTTYsiZaUD8k2yDAj5atimTUD2TZkyCkNEeYE5NhFZmupOGtjYQ==}
