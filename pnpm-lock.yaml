@@ -85,6 +85,7 @@ importers:
       "@emotion/styled": 11.10.6
       "@mui/material": 5.11.9
       "@mui/x-data-grid": 5.17.24
+      "@types/dagre": ^0.7.48
       "@types/eslint": 8.21.1
       "@types/node": ^18.14.0
       "@types/node-fetch": latest
@@ -116,6 +117,7 @@ importers:
       "@emotion/styled": 11.10.6_oouaibmszuch5k64ms7uxp2aia
       "@mui/material": 5.11.9_xqeqsl5kvjjtyxwyi3jhw3yuli
       "@mui/x-data-grid": 5.17.24_6xuqkx7j3yd5szfmeziobqb6qq
+      "@types/dagre": 0.7.48
       "@types/eslint": 8.21.1
       "@types/node": 18.14.4
       "@types/node-fetch": 2.6.2
@@ -3627,6 +3629,13 @@ packages:
       "@types/d3-transition": 3.0.3
       "@types/d3-zoom": 3.0.2
     dev: false
+
+  /@types/dagre/0.7.48:
+    resolution:
+      {
+        integrity: sha512-rF3yXSwHIrDxEkN6edCE4TXknb5YSEpiXfLaspw1I08grC49ZFuAVGOQCmZGIuLUGoFgcqGlUFBL/XrpgYpQgw==,
+      }
+    dev: true
 
   /@types/debug/4.1.7:
     resolution:
